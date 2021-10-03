@@ -13,7 +13,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Pancha99x/Col-Preview-Card)
-- Live Site URL: [Add live site URL here](https://pancha99x.github.io/Col-Preview-Card/)
+- Live Site URL: [https://pancha99x.github.io/Col-Preview-Card/]
 
 ### Built with
 
