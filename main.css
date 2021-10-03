@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);   /*(paragraphs)*/
+    --Very-light-gray: hsl(0, 0%, 95%);             /*(background,headings,buttons)*/
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    background-color: var(--Very-light-gray);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem 0rem;
+    margin: 0% 4%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sub-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem 2.5rem;
+    max-width: 300px;
+}
+
+.heading {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin: 2rem 0rem;
+    color: var(--Very-light-gray);
+}
+
+.para {
+    line-height: 1.5rem;
+    color: var(--Transparent-white);
+}
+
+.btn {
+    margin-top: 2rem;
+}
+
+button{ 
+    font-family: 'Lexend Deca', sans-serif;
+    background: none;
+    border: none;
+    outline: none;
+    padding: .9rem 2.5rem;
+    border-radius: 25px;
+    background-color: var(--Very-light-gray);
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.first {
+    background-color: var(--Bright-orange);
+}
+
+.second {
+    background-color: var(--Dark-cyan);
+}
+
+.third {
+    background-color: var(--Very-dark-cyan);
+}
+
+.one button{
+    color: var(--Bright-orange);
+}
+
+.two button{
+    color: var(--Dark-cyan);
+}
+
+.three button{
+    color: var(--Very-dark-cyan);
+}
+
+button:hover {
+    border: 2px solid var(--Very-light-gray);
+    background-color: transparent;
+    color: var(--Transparent-white);
+    transition: .15s ease-out;
+}
+
+/*===========
+  Footer
+  ===========*/
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        flex-direction: row;
+    }
+
+    .btn {
+        margin-top: 5rem;
+    }
+}
