@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Pancha99x/Col-Preview-Card)
-- Live Site URL: [https://pancha99x.github.io/Col-Preview-Card/]
+- Solution URL: https://github.com/Pancha99x/Col-Preview-Card
+- Live Site URL: https://pancha99x.github.io/Col-Preview-Card/
 
 ### Built with
 
@@ -23,4 +23,4 @@ Users should be able to:
 
 ## Author
 
-  Pancha99x
+-Pancha99x
