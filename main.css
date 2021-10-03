@@ -30,7 +30,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8rem 0rem;
+    padding: 4.5rem 0rem;
     margin: 0% 4%;
 }
 
@@ -131,4 +131,6 @@ button:hover {
     .btn {
         margin-top: 5rem;
     }
-}
+    main  {
+        pading: 7.7rem 0rem;
+    }
