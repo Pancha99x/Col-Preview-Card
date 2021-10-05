@@ -13,7 +13,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Pancha99x/Frontend-mentor-Project-1
-- Live Site URL: https://pancha99x.github.io/Col-Preview-Card/
+- Live Site URL: https://pancha99x.github.io/Frontend-mentor-Project-1/
 
 ### Built with
 
